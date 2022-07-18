@@ -16,12 +16,17 @@ namespace Application.Queries
             _mapper = mapper;
         }
 
-        public StatementResponse GetStatement(Guid accountId)
+        public StatementResponse? GetStatement(Guid accountId)
         {
             Account account = DatabaseConfiguration.GetAllData<Account>(DatabasePathConst.AccountPath)
-                .Where(x => x.AccountId == accountId).First();
+                .Where(x => x.AccountId == accountId).FirstOrDefault();
 
-            IEnumerable<AccountHistory> accountHistory = DatabaseConfiguration.GetAllData<AccountHistory>(DatabasePathConst.AccountPath)
+            if (account == null)
+            {
+                return null;
+            }
+
+            IEnumerable<AccountHistory> accountHistory = DatabaseConfiguration.GetAllData<AccountHistory>(DatabasePathConst.AccountHistoryPath)
                 .Where(x => x.AccountId == accountId);
 
             BankAccount BankAccount = new()

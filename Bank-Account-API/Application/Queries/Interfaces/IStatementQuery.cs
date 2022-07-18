@@ -4,6 +4,6 @@ namespace Application.Queries.Interfaces
 {
     public interface IStatementQuery
     {
-        StatementResponse GetStatement(Guid accountId);
+        StatementResponse? GetStatement(Guid accountId);
     }
 }
