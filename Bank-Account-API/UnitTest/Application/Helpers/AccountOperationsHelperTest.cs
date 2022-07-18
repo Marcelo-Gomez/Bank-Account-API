@@ -1,8 +1,4 @@
-﻿using Application.Helpers;
-using Application.Queries.Interfaces;
-using Domain.Enums;
-
-namespace UnitTest.Application.Helpers
+﻿namespace UnitTest.Application.Helpers
 {
     public class AccountOperationsHelperTest
     {

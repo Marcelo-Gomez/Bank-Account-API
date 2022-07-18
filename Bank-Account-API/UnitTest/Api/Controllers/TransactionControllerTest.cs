@@ -1,12 +1,4 @@
-﻿using Api.Controllers;
-using Application.Commands.Response;
-using Application.Queries.Interfaces;
-using FluentAssertions;
-using MediatR;
-using Microsoft.AspNetCore.Mvc;
-using System.Net;
-
-namespace UnitTest.Api.Controllers
+﻿namespace UnitTest.Api.Controllers
 {
     public class TransactionControllerTest
     {

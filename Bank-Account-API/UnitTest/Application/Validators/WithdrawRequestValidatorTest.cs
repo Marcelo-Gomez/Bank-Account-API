@@ -1,6 +1,4 @@
-﻿using Application.Validators;
-
-namespace UnitTest.Application.Validators
+﻿namespace UnitTest.Application.Validators
 {
     public class WithdrawRequestValidatorTest
     {
