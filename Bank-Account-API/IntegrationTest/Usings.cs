@@ -1,0 +1,9 @@
+global using NUnit.Framework;
+global using Application.Commands.Request;
+global using AutoFixture;
+global using FluentAssertions;
+global using Microsoft.AspNetCore.Mvc.Testing;
+global using Newtonsoft.Json;
+global using System.Net;
+global using System.Text;
+global using IntegrationTest.Utils;

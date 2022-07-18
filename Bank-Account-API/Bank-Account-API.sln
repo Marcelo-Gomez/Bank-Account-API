@@ -31,6 +31,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tables", "Tables", "{1822C5
 		AccountHistory.json = AccountHistory.json
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTest", "IntegrationTest\IntegrationTest.csproj", "{5F252773-E85C-453E-B1E2-ED0455D22F2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{6BAB1ACF-DD90-45F3-A282-E41C562BF47A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BAB1ACF-DD90-45F3-A282-E41C562BF47A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BAB1ACF-DD90-45F3-A282-E41C562BF47A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F252773-E85C-453E-B1E2-ED0455D22F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F252773-E85C-453E-B1E2-ED0455D22F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F252773-E85C-453E-B1E2-ED0455D22F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F252773-E85C-453E-B1E2-ED0455D22F2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +74,7 @@ Global
 		{0FA2BF92-25AC-45F2-B23E-D2C94812220A} = {881CE55C-1FF5-4DA2-8D11-BEC1A3E7ADA1}
 		{6BAB1ACF-DD90-45F3-A282-E41C562BF47A} = {D0F1F764-7B9B-4637-A7E5-376673584994}
 		{1822C511-D5BB-47CB-A579-FC682915B6EF} = {8E089A76-D93A-4764-B88B-111512EEB2B4}
+		{5F252773-E85C-453E-B1E2-ED0455D22F2E} = {D0F1F764-7B9B-4637-A7E5-376673584994}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {037E81E2-59CD-4FA7-8A50-4459E8764232}
