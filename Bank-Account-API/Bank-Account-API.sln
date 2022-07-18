@@ -13,15 +13,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Infrastructure", "04 -
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D0F1F764-7B9B-4637-A7E5-376673584994}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{512D373B-271E-4A15-986B-DD613570E6C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{512D373B-271E-4A15-986B-DD613570E6C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{28AD2DD3-219B-45A1-A373-60B956F535E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{28AD2DD3-219B-45A1-A373-60B956F535E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{86E6AA13-662D-45D2-AA67-365ECA214F50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{86E6AA13-662D-45D2-AA67-365ECA214F50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Data", "Infrastructure.Data\Infrastructure.Data.csproj", "{0FA2BF92-25AC-45F2-B23E-D2C94812220A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Data", "Infrastructure.Data\Infrastructure.Data.csproj", "{0FA2BF92-25AC-45F2-B23E-D2C94812220A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{6BAB1ACF-DD90-45F3-A282-E41C562BF47A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTest", "UnitTest\UnitTest.csproj", "{6BAB1ACF-DD90-45F3-A282-E41C562BF47A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{8E089A76-D93A-4764-B88B-111512EEB2B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tables", "Tables", "{1822C511-D5BB-47CB-A579-FC682915B6EF}"
+	ProjectSection(SolutionItems) = preProject
+		Account.json = Account.json
+		AccountHistory.json = AccountHistory.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +67,7 @@ Global
 		{86E6AA13-662D-45D2-AA67-365ECA214F50} = {E2EECFE8-B216-419C-A66C-E57515EBE758}
 		{0FA2BF92-25AC-45F2-B23E-D2C94812220A} = {881CE55C-1FF5-4DA2-8D11-BEC1A3E7ADA1}
 		{6BAB1ACF-DD90-45F3-A282-E41C562BF47A} = {D0F1F764-7B9B-4637-A7E5-376673584994}
+		{1822C511-D5BB-47CB-A579-FC682915B6EF} = {8E089A76-D93A-4764-B88B-111512EEB2B4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {037E81E2-59CD-4FA7-8A50-4459E8764232}

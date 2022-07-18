@@ -1,1 +1,9 @@
 global using NUnit.Framework;
+global using Application.Commands.Request;
+global using Application.Handlers;
+global using Application.Helpers.Interfaces;
+global using AutoFixture;
+global using Domain.AggregatesModel.BankAccountAggregate;
+global using Moq;
+global using FluentAssertions;
+global using FluentValidation;
