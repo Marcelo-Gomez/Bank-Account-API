@@ -1,22 +1,30 @@
 [
   {
-    "TotalAmount": 20811.2,
+    "TotalAmount": 0.5,
     "AccountId": "f1b0e5b7-dcc3-4db8-b8d1-a080f003ac43"
   },
   {
-    "TotalAmount": 19821.2,
+    "TotalAmount": 1000.0,
     "AccountId": "c89290c3-975d-40c5-a097-d21665cdaf25"
   },
   {
-    "TotalAmount": 19821.2,
+    "TotalAmount": 46.0,
+    "AccountId": "7de32560-8059-4085-9219-c10c069ad9fe"
+  },
+  {
+    "TotalAmount": 1000.0,
     "AccountId": "731da966-8b7e-4e00-b592-ab4c9a9b8eb7"
   },
   {
-    "TotalAmount": 19821.2,
+    "TotalAmount": 0.0,
     "AccountId": "1c13d24a-2c5f-47c3-9245-0d1986e55cca"
   },
   {
-    "TotalAmount": 19821.2,
+    "TotalAmount": 2001.52,
+    "AccountId": "809d2a8b-dbe2-49d0-9864-377b06b8ae9c"
+  },
+  {
+    "TotalAmount": 997.48,
     "AccountId": "07cc6204-0062-453d-b7bb-a93bddaef86c"
   }
 ]
