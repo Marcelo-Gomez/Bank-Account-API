@@ -5,52 +5,66 @@
 
 
 # Documentação dos endpoints
-Esse projeto possuí o Swagger configurado: .../swagger/index.html
+Esse projeto tem o Swagger configurado: .../swagger/index.html
 
 ### Endpoint de Depósito:
 **Path:** ../Api/Bank/Transaction/Deposit
-**Tipo de Requisição:** POST
+&nbsp;
+**Tipo de Requisição:** POST 
+&nbsp;
 **Body Request:**
 ```sh
-"AccountId": "0d930052-064f-11ed-b939-0242ac120002"
-"DepositAmount": 0.0
+{
+	"AccountId": "0d930052-064f-11ed-b939-0242ac120002"
+	"DepositAmount": 0.0
+}
 ```
 **Condições válidadas pelo endpoint:** 
- - Valor de depósito maior ou igual a 1 (Necessário para que pelo menos 1% seja cobrado da transação)
+ - O campo "DepositAmount", deve ser superior ou igual a 1 (Necessário para que pelo menos 1% seja cobrado da transação)
  - O campo "AccountId", deve ser preenchido e existir na tabela "Account.json"
 
 ### Endpoint de Saque:
 **Path:** ../Api/Bank/Transaction/Withdraw
+&nbsp;
 **Tipo de Requisição:** POST
+&nbsp;
 **Body Request:**
 ```sh
-"AccountId": "0d930052-064f-11ed-b939-0242ac120002"
-"WithdrawAmount": 0.0
+{
+	"AccountId": "0d930052-064f-11ed-b939-0242ac120002"
+	"WithdrawAmount": 0.0
+}
 ```
 **Condições válidadas pelo endpoint:** 
- - Valor de saque maior que 4
+ - O campo "WithdrawAmount", deve ser superior a 4
  - O campo "AccountId", deve ser preenchido e existir na tabela "Account.json"
- - O valor mais a taxa do saque, deve ser superior ao valor que o cliente posssí em conta
+ - O valor da operação mais a taxa do saque, deve ser superior ao valor que o cliente posssí em conta
 
 ### Endpoint de Transferência entre contas:
 **Path:** ../Api/Bank/Transaction/TransferToAccount
+&nbsp;
 **Tipo de Requisição:** POST
+&nbsp;
 **Body Request:**
 ```sh
-"AccountId": "0d930052-064f-11ed-b939-0242ac120002"
-"AccountReceiveId": "0d930052-064f-11ed-b939-0242ac120002"
-"TransferAmount": 0.0
+{
+	"AccountId": "0d930052-064f-11ed-b939-0242ac120002"
+	"AccountReceiveId": "0d930052-064f-11ed-b939-0242ac120002"
+	"TransferAmount": 0.0
+}
 ```
 **Condições válidadas pelo endpoint:** 
- - Valor de transferência maior que 1
+ - O campo "TransferAmount", deve ser superior a 1
  - O campo "AccountId", deve ser preenchido e existir na tabela "Account.json"
  - O campo "AccountReceiveId", deve ser preenchido e existir na tabela "Account.json"
  - Os campos "AccountId" e "AccountReceiveId" devem ser diferentes
- - O valor da transferência, deve ser superior ao valor que o cliente (AccountId) posssí em conta
+ - O valor da operação mais a taxa de transferência, deve ser superior ao valor que o cliente (AccountId) posssí em conta
 
 ### Endpoint de Extrato:
 **Path:** ../Api/Bank/Transaction/Statement
+&nbsp;
 **Tipo de Requisição:** GET
+&nbsp;
 **Request Path:**
 ```sh
 ../Api/Bank/Transaction/Statement/0d930052-064f-11ed-b939-0242ac120002
@@ -63,8 +77,11 @@ Esse projeto possuí o Swagger configurado: .../swagger/index.html
 
 ## Banco de dados
 Foram utilizados dois arquivos .json para simular duas tabelas de um banco relacional.
-Esses arquivos estão localizado dentro da Solution (\\Database\\Tables\\..).
+&nbsp;
+Esses arquivos estão localizados dentro da Solution (\\Database\\Tables\\..).
+&nbsp;
 Já existem algumas informações cadastradas nos arquivos, com o propósito de facilitar a validação.
+&nbsp;
 **Tabelas:**
  - Account.json
  - AccountHistory.json
