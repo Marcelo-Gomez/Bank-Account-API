@@ -1,0 +1,121 @@
+[
+  {
+    "OriginalAmount": 2500.0,
+    "AmountAfterDiscounts": 2475.0,
+    "Type": 1,
+    "TransactionDateUtc": "2022-07-16T23:43:00.9437397Z",
+    "AccountId": "f1b0e5b7-dcc3-4db8-b8d1-a080f003ac43"
+  },
+  {
+    "OriginalAmount": 2500.0,
+    "AmountAfterDiscounts": 2475.0,
+    "Type": 1,
+    "TransactionDateUtc": "2022-07-16T23:43:43.8837383Z",
+    "AccountId": "f1b0e5b7-dcc3-4db8-b8d1-a080f003ac43"
+  },
+  {
+    "OriginalAmount": 1000.0,
+    "AmountAfterDiscounts": 990.0,
+    "Type": 1,
+    "TransactionDateUtc": "2022-07-17T00:16:54.6361694Z",
+    "AccountId": "f1b0e5b7-dcc3-4db8-b8d1-a080f003ac43"
+  },
+  {
+    "OriginalAmount": 1000.0,
+    "AmountAfterDiscounts": 990.0,
+    "Type": 1,
+    "TransactionDateUtc": "2022-07-17T00:20:56.9689738Z",
+    "AccountId": "f1b0e5b7-dcc3-4db8-b8d1-a080f003ac43"
+  },
+  {
+    "OriginalAmount": 1000.0,
+    "AmountAfterDiscounts": 990.0,
+    "Type": 1,
+    "TransactionDateUtc": "2022-07-17T00:21:55.3207849Z",
+    "AccountId": "f1b0e5b7-dcc3-4db8-b8d1-a080f003ac43"
+  },
+  {
+    "OriginalAmount": 1004.0,
+    "AmountAfterDiscounts": 1008.0,
+    "Type": 2,
+    "TransactionDateUtc": "2022-07-17T01:52:53.6684256Z",
+    "AccountId": "f1b0e5b7-dcc3-4db8-b8d1-a080f003ac43"
+  },
+  {
+    "OriginalAmount": 99.0,
+    "AmountAfterDiscounts": 100.0,
+    "Type": 3,
+    "TransactionDateUtc": "2022-07-17T02:29:16.4318085Z",
+    "AccountId": "f1b0e5b7-dcc3-4db8-b8d1-a080f003ac43"
+  },
+  {
+    "OriginalAmount": 99.0,
+    "AmountAfterDiscounts": 99.0,
+    "Type": 4,
+    "TransactionDateUtc": "2022-07-17T02:29:20.1254989Z",
+    "AccountId": "731da966-8b7e-4e00-b592-ab4c9a9b8eb7"
+  },
+  {
+    "OriginalAmount": 99.0,
+    "AmountAfterDiscounts": 100.0,
+    "Type": 3,
+    "TransactionDateUtc": "2022-07-17T02:38:47.9599763Z",
+    "AccountId": "f1b0e5b7-dcc3-4db8-b8d1-a080f003ac43"
+  },
+  {
+    "OriginalAmount": 99.0,
+    "AmountAfterDiscounts": 99.0,
+    "Type": 4,
+    "TransactionDateUtc": "2022-07-17T02:38:47.9705389Z",
+    "AccountId": "731da966-8b7e-4e00-b592-ab4c9a9b8eb7"
+  },
+  {
+    "OriginalAmount": 1004.0,
+    "AmountAfterDiscounts": 1008.0,
+    "Type": 2,
+    "TransactionDateUtc": "2022-07-17T02:38:53.1489505Z",
+    "AccountId": "f1b0e5b7-dcc3-4db8-b8d1-a080f003ac43"
+  },
+  {
+    "OriginalAmount": 1000.0,
+    "AmountAfterDiscounts": 990.0,
+    "Type": 1,
+    "TransactionDateUtc": "2022-07-17T02:38:57.1835666Z",
+    "AccountId": "f1b0e5b7-dcc3-4db8-b8d1-a080f003ac43"
+  },
+  {
+    "OriginalAmount": 12.0,
+    "AmountAfterDiscounts": 11.88,
+    "Type": 1,
+    "TransactionDateUtc": "2022-07-17T03:26:52.3338695Z",
+    "AccountId": "f1b0e5b7-dcc3-4db8-b8d1-a080f003ac43"
+  },
+  {
+    "OriginalAmount": 990.0,
+    "AmountAfterDiscounts": 991.0,
+    "Type": 3,
+    "TransactionDateUtc": "2022-07-17T03:35:10.6502932Z",
+    "AccountId": "f1b0e5b7-dcc3-4db8-b8d1-a080f003ac43"
+  },
+  {
+    "OriginalAmount": 990.0,
+    "AmountAfterDiscounts": 990.0,
+    "Type": 4,
+    "TransactionDateUtc": "2022-07-17T03:35:10.6621317Z",
+    "AccountId": "731da966-8b7e-4e00-b592-ab4c9a9b8eb7"
+  },
+  {
+    "OriginalAmount": 990.0,
+    "AmountAfterDiscounts": 991.0,
+    "Type": 3,
+    "TransactionDateUtc": "2022-07-17T03:35:24.6748817Z",
+    "AccountId": "f1b0e5b7-dcc3-4db8-b8d1-a080f003ac43"
+  },
+  {
+    "OriginalAmount": 990.0,
+    "AmountAfterDiscounts": 990.0,
+    "Type": 4,
+    "TransactionDateUtc": "2022-07-17T03:35:24.6756403Z",
+    "AccountId": "731da966-8b7e-4e00-b592-ab4c9a9b8eb7"
+  }
+]
